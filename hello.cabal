@@ -20,5 +20,5 @@ source-repository head
 
 executable hello
   main-is:             hello.hs 
-  build-depends:       base >=4 && <4.8, zlib == 0.5.*, QuickCheck
+  build-depends:       base >=4 && <4.8, zlib == 0.5.*, QuickCheck == 2.6.*
   default-language:    Haskell98
